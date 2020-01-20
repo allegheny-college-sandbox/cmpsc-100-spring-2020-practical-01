@@ -28,7 +28,7 @@ In this practical session, we focus on writing our initial Java program, the "He
 * **Complete _something_.** Grading for practical assignments hinges on _completion_. As long as you provide a good faith effort to finish a task, your grade should reflect your effort.
 * **Practice skills.** If you work in the discipline of computer science, many of the skills you revisit or establish here are industry standard practice. Learning and practicing them often helps prepare you for either other classes or professional work.
 * **Try to finish during the class session** While I provide extra time to complete the work, these assignments can be completed in 50 minutes. This will help you develop your awareness and management of time.
-* **Help one another!** We're a community of users here, not competitors. If you grasp something quickly, but a neighbor does not, offer to help them after they've tried for a bit. Conversely, _ask for help_ from either me, our lab TLs, or your neighbor.
+* **Help one another!** We're a community of users here, not competitors. If you grasp something quickly, but a neighbor does not, offer to help them after they've tried for a bit. Conversely, _ask for help_ from either me, our TLs, or your neighbor.
 
 ## Evaluation
 
@@ -37,7 +37,7 @@ Practical assignments are evaluated based on an honest attempt at completion. As
 ## Accepting the assignment
 
 - [ ] Log into the `#practicals` channel in our class [Slack](https://cmpsc-100-02-sp-2020.slack.com)
-- [ ] Click the link provided for the lab assignment and accept it in GitHub classroom
+- [ ] Click the link provided for the practical assignment and accept it in GitHub classroom
 - [ ] Once the assignment finishes building, click the link to go to your personal repository assignment
 
 ## "Cloning" a repository
@@ -108,7 +108,7 @@ You will use this command to grade your work before you turn it in, enabling you
 #### Running GatorGrader directly on `container` start
 
 - [ ] `cd` to your `CMPSC100` folder
-- [ ] Locate the `cmpsc-100-spring-2020-lab-02` folder and `cd` to it.
+- [ ] Locate the `cmpsc-100-spring-2020-practical-01` folder and `cd` to it.
     * Remember that if you run `ls -la`, you should see a `.git` folder if you're in the main repository folder.
 - [ ] To make sure you're in the right repository, type `pwd` and press `Enter`
     * If you recieve the expected path, you're in the right place!
@@ -132,7 +132,7 @@ docker run -it --mount type=bind,source="$(pwd)",target="/project" --hostname Ga
 The GitHub platform is a place to store your work. So, it makes some sense that should be able to _clone_ (download) from it, and push back (upload) to it. Here, we'll learn this second part.
 
 - [ ] `cd` to your `CMPSC100` folder
-- [ ] Locate the `cmpsc-100-spring-2020-lab-02` folder and `cd` to it
+- [ ] Locate the `cmpsc-100-spring-2020-practical-01` folder and `cd` to it
 
 Once in this folder, we need to tell git that there have been changes.
 
