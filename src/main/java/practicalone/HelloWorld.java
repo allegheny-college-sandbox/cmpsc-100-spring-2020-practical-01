@@ -2,7 +2,7 @@ package practicalone;
 
 /** Implements a Java "Hello, World!" program.
  *
- * @author {Your Name Here}
+ * @author Douglas Luman
  */
 public class HelloWorld {
 
@@ -10,8 +10,8 @@ public class HelloWorld {
    *
    * @param args The command line arguments
    */
-  /* 
-   * TODO: Write the main method for a program which prints
-   *       a single statement ("Hello, World!") and a new line.
-   */
+  public static void main(String[] args) {
+    // The following prints a single line to the screen
+    System.out.println("Hello, World!");
+  }
 }

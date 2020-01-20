@@ -8,6 +8,8 @@ src/main/java/practicalone:
     HelloWorld.java:
         ConfirmFileExists
         CountSingleLineComments --language Java --count 1
+        MatchFileFragment --fragment "{Your Name Here}" --count 0 --exact
+        MatchFileFragment --fragment "TODO" --count 0 --exact
         MatchFileFragment --fragment "public static void main(String[] args) {" --count 1 --exact
         MatchFileFragment --fragment "System.out.println(\"Hello, World!\")" --count 1 --exact
         MatchFileFragment --fragment "}" --count 2 --exact
