@@ -1,0 +1,16 @@
+---
+name: practical-01
+break: true
+indent: 4
+---
+
+src/main/java/practicalone:
+    HelloWorld.java:
+        ConfirmFileExists
+        CountSingleLineComments --language Java --count 1
+        MatchFileFragment --fragment "public static void main(String[] args) {" --count 1 --exact
+        MatchFileFragment --fragment "System.out.println(\"Hello, World!\")" --count 1 --exact
+        MatchFileFragment --fragment "}" --count 2 --exact
+        
+ExecuteCommand --command "gradle build"
+ExecuteCommand --command "gradle run -q --console plain run"
